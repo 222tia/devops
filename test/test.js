@@ -1,8 +1,8 @@
 var main = require('../index');
 var assert = require('assert');
-describe('Regular fibonacci value', function() {
-    it('should return 5 for Fib(5)', function() {
-        assert.strictEqual(main.fibonacci(5), 5);
+describe('Regular factorial value', function() {
+    it('should return 7 for factorial(7)', function() {
+        assert.strictEqual(main.factorial(7), 5040);
       });
 });
 
